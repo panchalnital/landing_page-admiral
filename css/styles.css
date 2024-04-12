@@ -1,0 +1,158 @@
+/* Font Definitions */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+.text-align{
+    text-align: center !important;
+
+}
+.top-lign{
+    margin-top: 13%;
+}
+
+.top-lign1{
+    margin-top: 5%;
+}
+
+/* Typography Styles */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4F4D53; /* Alpha value for transparency */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #E8BE02;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+/* UI Component Styles */
+.navbar {
+    height: 48px;
+    background-color: #4F4D53;
+}
+
+.yellow-band {
+    height: 12px;
+    background-color: #E8BE02;
+}
+
+.footer {
+    height: 320px;
+    background-color: #4F4D53;
+    color: #FFFFFF;
+}
+
+/* Styling the background container */
+.background {
+    position: relative;
+    width: 100vw; /* Make sure it takes the full width of the viewport */
+    height: 100vh; /* Make sure it takes the full height of the viewport */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+/* Styling the background image */
+.background img {
+    width: 100%; /* Make sure the background image covers the entire container */
+    height: 100%; /* Make sure the background image covers the entire container */
+    object-fit: cover; /* Scale the image while preserving its aspect ratio */
+}
+
+.background-container {
+    position: relative;
+    background-image: url('http://localhost/landing_page-admiral/media/img_hero.jpg');
+    background-size: cover;
+    height: 500px; /* Set the height of the container */
+  }
+
+  .overlay-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .overlay-content1 {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+
+/* Styling the overlay container */
+.overlay {
+    position: relative; /* Position it relative to the parent .background */
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.overlay-botton {
+    width: 50%;
+    height: 70%;
+}
+
+.text-title {
+
+    color: #E8BE02;
+}
+
+/* Styling the overlay image */
+.overlay img {
+    position: relative;
+    top: 50%; /* Position it vertically in the middle */
+    left: 50%; /* Position it horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center it precisely */
+}
+
+.me-2 {
+    margin-right: 13.5rem !important;
+    background-color: #495057;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .i2{
+        display: none !important;
+    }
+    .i1{
+        width: 56% !important;  
+        max-width: 62% !important; 
+    }
+    .rePedd{
+        padding-top: 114px;
+    }
+  }
